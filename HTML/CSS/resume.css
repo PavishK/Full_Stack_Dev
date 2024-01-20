@@ -1,0 +1,57 @@
+body{
+    font-size: medium;
+    font-family: cursive;
+    background-color: black;
+}
+h1,h2{
+    color:white;
+}
+video:hover{
+    width: 500;
+    height: 500;
+    border-style: dashed;
+
+    padding:2%;
+    border-color: white;
+}
+
+img:hover{
+    border-style: dashed;
+    border-color: white;
+    border-radius: 50%;
+    padding: 5%;
+
+
+}
+img{
+    
+    border-radius: 50%;
+    border-color: white;
+}
+p,marquee,li{
+    font-size:25px;
+    color:white;
+}
+.div1{
+    float:left;
+}
+.div2{
+    display:flex;
+    float:right;
+}
+hr{
+    border-style: dashed;
+    color:white;
+}
+
+button{
+    font-size:40px;
+    border-radius: 45%;
+    border-style: dashed;
+}
+button:hover{
+    letter-spacing: 3px;
+    background-color: black;
+    color:white;
+    box-shadow: black 0px 7px 29px 0px;
+}

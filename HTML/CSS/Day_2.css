@@ -1,0 +1,81 @@
+input[type="text"]
+{
+    border:2px;
+    border-color:green; 
+    border-style: dotted;
+
+}
+input[type="password"]
+{
+    border:2px;
+    border-color: aqua; 
+    border-style: dashed;
+}
+body{
+    box-sizing: border-box;
+    margin: 10px;
+    font-family: cursive;
+    
+}
+button{
+    background-color: white;
+    border: none;
+    color:aqua;
+    padding:10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-flexbox;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+button:hover{
+    letter-spacing: 3px;
+    background-color: aqua;
+    color:white;
+    box-shadow: aqua 0px 7px 29px 0px;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color:gainsboro;
+}
+
+.item{
+    background-color:aqua;
+    padding: 10px;
+    flex:1;
+    border-radius: 20%;
+    
+}
+
+.container1{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    background-color: aqua;
+}
+.item1{
+    border:2px solid black;
+    padding:20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.container2{
+    display:inline-grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    background-color: aqua;
+}
+.item2{
+    border:2px solid black;
+    padding:20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10%;
+}

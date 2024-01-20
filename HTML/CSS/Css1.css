@@ -1,0 +1,42 @@
+button{
+    size: 40px;
+    font-size: xx-large;
+    border-radius: 40%;
+    border-style: dashed;
+
+}
+body{
+    color: white;
+    font-family: cursive;
+    
+}
+hr{
+    color: white;
+    border-style:dashed;
+}
+
+button:hover{
+    color: black;
+    background-color: #09f5e9;
+    margin: 4px 2px;
+    padding: 16px 32px;
+
+    opacity: 0.7;
+}
+
+img{
+    border-radius: 50%;
+    border-style: dashed;
+
+}
+.div1{
+    float:left;
+    background-color: black;
+    width: 50%;
+    height: ;
+}
+
+.div2{
+    float:right;
+    background-color:white;
+}
